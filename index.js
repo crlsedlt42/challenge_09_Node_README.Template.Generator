@@ -16,8 +16,6 @@ const fs = require("fs");
 const inquirer = require("inquirer");
 const generateMarkdown = require("./utils/generateMarkdown.js");
 
-// -- Turkey and instanbul and the catholic church
-
 const questions = [
     {
         type: "input",
@@ -76,12 +74,6 @@ const questions = [
 
 ];
 
-if (err) {
-    return console.log(err);
-}
-
-console.log("Success! Your README.md file has been generated. Please review the file and make any necessary changes.");
-
 
 // Function call to initialize app
 
@@ -96,7 +88,13 @@ async function init() {
 
     // Creating the README.md file
 
-    writeToFile("(Template)README.md", readmeInfo);
+    fs.writeFile("(Template)README.md", readmeInfo, err => {
+        if (err) {
+            console.log(err);
+        }
+
+        console.log("Success! Your README.md file has been generated. Please review the file and make any necessary changes.");
+    });
 }
 
 // Function to write README file
