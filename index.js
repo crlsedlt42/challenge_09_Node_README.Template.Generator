@@ -31,6 +31,12 @@ const questions = [
 
     {
         type: "input",
+        name: "installation",
+        message: "Provide instructions for installing your project."
+    },
+
+    {
+        type: "input",
         name: "usage",
         message: "Provide instructions for using your project. If you want to include screenshots by creating an assets/images folder in your repository: ![alt text](assets/images/screenshot.png)"
     },
