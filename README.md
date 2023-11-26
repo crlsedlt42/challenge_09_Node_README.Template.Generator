@@ -3,7 +3,7 @@
 ## Description
 
 As a junior webstack developer, I want to have a proficient workflow. 
-By devloping an applicaiton that works in the local server, I can use node.js with an inquirer package to streamline creating a REAME.md for future projects.
+By devloping an applicaiton that works in the local server, I can use node.js with an inquirer package to streamline creating a README.md file for future projects.
 
 ## Table of Contents
 
