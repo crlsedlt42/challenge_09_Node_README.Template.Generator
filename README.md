@@ -27,6 +27,8 @@ Use following prompts on designated terminal to use the application properly.
 
 ![screenshot](images/Challenge_09-README-Generator.jpg)
 
+[Walkthrough Video](https://youtu.be/PLTRjs2UhQA)
+
 ## License
 
 This is free and unencumbered software released into the public domain.
